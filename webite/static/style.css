@@ -13,7 +13,7 @@ body{
 }
 .container::before{
     content: "";
-    background: url(./netflix-bg.jpg) no-repeat center center/cover;
+    background: url(./static/netflix-bg.jpg) no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -132,4 +132,41 @@ body{
 .container .title .content form .email button a{
     text-decoration: none;
     color: white;
+}
+
+
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
 }
