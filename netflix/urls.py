@@ -9,5 +9,5 @@ from webite.apps import WebiteConfig
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('MovieApp.urls')),
+    path('',include('webite.urls')),
 ]
